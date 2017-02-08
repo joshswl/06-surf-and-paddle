@@ -15,7 +15,8 @@ img {
 
 .banner {
   padding: 0rem;
-  background: #1D70B1;
+  height: 35rem;
+  background: linear-gradient($c-transparentblue, $c-transparentblue), url('https://images.alphacoders.com/152/thumb-1920-152303.jpg'),no-repeat center center fixed;
 }
 
 .banner__top {
@@ -37,8 +38,12 @@ img {
 }
 
 .nav__logo--img {
-  float: left;
+
   width: 3.5rem;
+}
+
+.nav__logo--text {
+
 }
 
 .nav__group--right {
@@ -66,14 +71,21 @@ img {
 
 }
 
-.banner__bottom--img {
-  width: 100%;
-}
-
 .banner__title {
-  position: relative;
+  position: fixed;
+  width: 60rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  text-align: center;
+  font-size: 90px;
 }
 
 .banner__subtitle {
-
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
