@@ -55,7 +55,7 @@
 }
 
 .banner__title {
-  position: fixed;
+  position: absolute;
   width: 60rem;
   top: 40%;
   left: 50%;
@@ -67,7 +67,7 @@
 }
 
 .banner__subtitle {
-  position: fixed;
+  position: absolute;
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
