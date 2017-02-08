@@ -1,12 +1,14 @@
 .banner {
   padding: 0rem;
+  width: 100%;
   height: 35rem;
   background: linear-gradient($c-transparentblue, $c-transparentblue), url('https://images.alphacoders.com/152/thumb-1920-152303.jpg'),no-repeat center center fixed;
   background-size: cover;
 }
 
 .banner__top {
-  padding: 1rem 17rem;;
+  padding: 1rem 2rem;
+  flex-grow: 1;
 }
 
 .nav {
@@ -57,7 +59,7 @@
 .banner__title {
   position: absolute;
   width: 60rem;
-  top: 40%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -68,7 +70,7 @@
 
 .banner__subtitle {
   position: absolute;
-  top: 47%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
