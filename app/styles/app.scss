@@ -13,3 +13,8 @@ $bg-transparenter: linear-gradient($c-transparenterblue, $c-transparenterblue);
 @import 'reset';
 @import 'banner';
 @import 'content';
+@import 'footer';
+
+.footer {
+  display: none;
+}
