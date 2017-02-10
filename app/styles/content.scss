@@ -1,6 +1,8 @@
 .content {
+  position: absolute;
   padding-right: 12rem;
   padding-left: 12rem;
+  border-bottom: 1px solid #a7a7a7;
 }
 
 .left__article {
@@ -89,6 +91,7 @@
 .article__btn {
   display: flex;
   justify-content: space-between;
+  margin-right: 7rem;
 }
 
 .article__btn1 {
@@ -97,8 +100,17 @@
 }
 
 .article__btn1--icon {
+  padding-top: 0.5rem;
+  width: 2rem;
   background: #5E686F;
-  background-size: 3rem;
+  text-align: center;
+}
+
+.article__btn1--text {
+  color: white;
+  background: #a7a7a7;
+  padding: 0.5rem 0.8rem;
+  font-size: 14px;
 }
 
 .article__btn2 {
@@ -107,10 +119,17 @@
 }
 
 .article__btn2--icon {
-  padding: 0.25rem;
+  padding-top: 0.5rem;
   width: 2rem;
   background: #5E686F;
   text-align: center;
+}
+
+.article__btn2--text {
+  padding: 0.5rem 0.8rem;
+  font-size: 14px;
+  color: white;
+  background: #a7a7a7;
 }
 
 .article__btn3 {
@@ -119,7 +138,17 @@
 }
 
 .article__btn3--icon {
-  background: black;
+  padding-top: 0.5rem;
+  width: 2rem;
+  background: #083452;
+  text-align: center;
+}
+
+.article__btn3--text {
+  padding: 0.5rem 0.8rem;
+  font-size: 14px;
+  color: white;
+  background: #116DB3;
 }
 
 .right__article {
@@ -132,6 +161,7 @@
 .author__img-actual {
   width: 5.5rem;
   border-radius: 50%;
+  margin-left: 6.8rem;
 }
 
 .author__img {
@@ -143,9 +173,9 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  margin-left: 6.8rem;
   background: ($c-transparenterblue);
   top: 0;
-  left: 0;
   width: 5.5rem;
   height: 5.5rem;
 }
@@ -158,6 +188,8 @@
 .author__social-link {
   display: flex;
   justify-content: space-between;
+  width: 12rem;
+  margin-left: 3.2rem;
   margin-top: -0.7rem;
   color: #a7a7a7;
   font-size: 14px;
