@@ -1,5 +1,5 @@
 .btm_section {
-
+  width: 65rem;
 }
 
 .btm_heading {
@@ -8,7 +8,12 @@
 }
 
 .btm_other-posts {
-
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .btm_other-post-item1 {
