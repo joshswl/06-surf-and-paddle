@@ -7,6 +7,7 @@
   display: flex;
   border-bottom: 1px solid #a7a7a7;
   background: #ffffff;
+  max-width: 65rem;
 }
 
 .left__article {
@@ -23,7 +24,8 @@
 .article__author {
   margin-top: -1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .article__author-img-actual {
@@ -48,8 +50,8 @@
 }
 
 .article__author-text {
-  // margin-left: -2rem;
-  // margin-top: 0.6rem;
+  margin-left: 0.7rem;
+  margin-right: 1.5rem;
   color: #116DB3;
   font-weight: bold;
   font-size: 14px;
@@ -92,13 +94,14 @@
 
 .article__btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-right: 7rem;
 }
 
 .article__btn1 {
+  margin-right: 0.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .article__btn1--icon {
@@ -116,6 +119,7 @@
 }
 
 .article__btn2 {
+  margin-right: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -158,10 +162,15 @@
   padding: 2rem;
 }
 
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .author__img-actual {
-  width: 5.5rem;
+  width: 6rem;
   border-radius: 50%;
-  margin-left: 6.8rem;
 }
 
 .author__img {
@@ -170,12 +179,11 @@
 
 .author__img--overlay {
   position: absolute;
-  width: 5.5rem;
   border-radius: 50%;
-  margin-left: 6.8rem;
   background: ($c-transparenterblue);
   top: 0;
-  height: 5.5rem;
+  height: 100%;
+  width: 6rem;
 }
 
 .author__name {
@@ -186,15 +194,13 @@
 .author__social-link {
   display: flex;
   justify-content: space-between;
-  margin-left: 3.2rem;
-  margin-top: -0.7rem;
   color: #a7a7a7;
   font-size: 14px;
 }
 
 .ad__img-actual {
   position: relative;
-  width: 21rem;
+  width: 85rem;
 }
 
 .ad__img {
