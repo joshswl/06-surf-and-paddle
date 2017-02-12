@@ -193,9 +193,12 @@
 
 .author__social-link {
   display: flex;
-  justify-content: space-between;
   color: #a7a7a7;
   font-size: 14px;
+}
+
+.author__social-link2 {
+  padding: 0rem 1rem;
 }
 
 .ad {
@@ -238,4 +241,5 @@
   margin-top: -0.7rem;
   color: #a7a7a7;
   font-size: 14px;
+  width: 18rem;
 }
