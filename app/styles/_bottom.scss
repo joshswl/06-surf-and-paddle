@@ -9,7 +9,16 @@
   text-align: center;
 }
 
-.btm_other-posts {
+.grid {
+  display: flex;
+  width: 100%;
+
+  &__item {
+    width: calc(100% / 4);
+  }
+}
+
+.post {
   position: relative;
 
   &__image {
