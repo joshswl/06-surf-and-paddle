@@ -92,59 +92,47 @@
 .article__btn {
   display: flex;
   justify-content: flex-start;
-  margin-right: 7rem;
+  margin-right: 5rem;
 }
 
 .article__btn1 {
   margin-right: 0.5rem;
   display: flex;
-  justify-content: flex-start;
-}
-
-.article__btn1--icon {
-  padding-top: 0.5rem;
-  width: 2rem;
-  background: #5E686F;
-  text-align: center;
-}
-
-.article__btn--text {
-  color: white;
-  background: #a7a7a7;
-  padding: 0.5rem;
-  font-size: 10px;
-}
-
-.article__btn--text2 {
-  color: white;
-  background: #116DB3;
-  padding: 0.5rem;
-  font-size: 10px;
 }
 
 .article__btn2 {
   margin-right: 0.5rem;
   display: flex;
-  justify-content: space-between;
-}
-
-.article__btn2--icon {
-  padding-top: 0.5rem;
-  width: 2rem;
-  background: #5E686F;
-  text-align: center;
 }
 
 .article__btn3 {
   display: flex;
-  justify-content: space-between;
 }
 
-.article__btn3--icon {
-  padding-top: 0.5rem;
-  width: 2rem;
+.article__btn--icon {
+  background: #5E686F;
+  padding: 0.3rem;
+  font-size: 10px;
+}
+
+.article__btn--icon2 {
   background: #083452;
-  text-align: center;
+  padding: 0.3rem;
+  font-size: 10px;
+}
+
+.article__btn--text {
+  color: white;
+  background: #a7a7a7;
+  font-size: 10px;
+  padding: 0.2rem;
+}
+
+.article__btn--text2 {
+  color: white;
+  background: #116DB3;
+  font-size: 10px;
+  padding: 0.2rem;
 }
 
 .right__article {
