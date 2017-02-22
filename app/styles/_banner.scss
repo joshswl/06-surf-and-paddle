@@ -1,5 +1,5 @@
 .container {
-  max-width: 70rem;
+  max-width: 100rem;
 }
 
 .banner {
@@ -10,30 +10,32 @@
 }
 
 .banner__top {
-  padding: 0.5rem;
-  flex-grow: 1;
-  max-width: 85%;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  // padding: 0.5rem;
+  // flex-grow: 1;
+  // max-width: 85%;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 65rem;
 }
 
 .nav__logo--img {
-  float: left;
   width: 2.5rem;
 }
 
 .nav__logo--text {
-  margin-left: 3rem;
-  margin-top: 0.5rem;
+  margin-left: 0.5rem;
   font-size: 13px;
 }
 
-.nav__group--right {
+.nav__group--left {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -60,8 +62,6 @@
 }
 
 .banner__subtitle {
-  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
