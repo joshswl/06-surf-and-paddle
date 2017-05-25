@@ -3,4 +3,18 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$c-transparentblue: rgba(0, 114, 187, 0.8);
+$c-transparenterblue: rgba(0, 114, 187, 0.5);
+
+$bg-transparenter: linear-gradient($c-transparenterblue, $c-transparenterblue);
+
 @import 'box-sizing';
+@import 'reset';
+@import 'banner';
+@import 'content';
+@import 'bottom';
+
+.container {
+  max-width: 80rem;
+}
